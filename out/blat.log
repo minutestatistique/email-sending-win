@@ -1,0 +1,30 @@
+
+2018.11.15 12:55:52 (Thu)------------Start of Session-----------------
+Blat v3.2.19 (build : Nov 18 2017 03:14:35)
+32-bit Windows, Full, Unicode
+2018.11.15 12:55:52 (Thu): Found "test.txt" matching search string "doc/INSTALL/test.txt", but the file cannot be opened.
+2018.11.15 12:55:52 (Thu): <<<getline<<< 220 smtp.gmail.com ESMTP r76-v6sm19650922wmb.21 - gsmtp
+2018.11.15 12:55:52 (Thu): >>>putline>>> EHLO data01-hp.gmail.com
+2018.11.15 12:55:52 (Thu): <<<getline<<< 250-smtp.gmail.com at your service, [46.218.127.123]
+2018.11.15 12:55:52 (Thu): <<<getline<<< 250-SIZE 35882577
+2018.11.15 12:55:52 (Thu): <<<getline<<< 250-8BITMIME
+2018.11.15 12:55:52 (Thu): <<<getline<<< 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+2018.11.15 12:55:52 (Thu): <<<getline<<< 250-ENHANCEDSTATUSCODES
+2018.11.15 12:55:52 (Thu): <<<getline<<< 250-PIPELINING
+2018.11.15 12:55:52 (Thu): <<<getline<<< 250-CHUNKING
+2018.11.15 12:55:52 (Thu): <<<getline<<< 250 SMTPUTF8
+2018.11.15 12:55:52 (Thu): Sending stdin.txt to minh-nhut.huynh@vertone.com
+2018.11.15 12:55:52 (Thu): Subject: test from R
+2018.11.15 12:55:52 (Thu): Login name is cca.cours.2015@gmail.com
+2018.11.15 12:55:52 (Thu): >>>putline>>> AUTH PLAIN  *****
+2018.11.15 12:55:53 (Thu): <<<getline<<< 235 2.7.0 Accepted
+2018.11.15 12:55:53 (Thu): >>>putline>>> MAIL FROM:<cca.cours.2015@gmail.com> BODY=8BITMIME
+2018.11.15 12:55:53 (Thu): <<<getline<<< 250 2.1.0 OK r76-v6sm19650922wmb.21 - gsmtp
+2018.11.15 12:55:53 (Thu): >>>putline>>> RCPT TO:<minh-nhut.huynh@vertone.com>
+2018.11.15 12:55:53 (Thu): <<<getline<<< 250 2.1.5 OK r76-v6sm19650922wmb.21 - gsmtp
+2018.11.15 12:55:53 (Thu): >>>putline>>> DATA
+2018.11.15 12:55:53 (Thu): <<<getline<<< 354  Go ahead r76-v6sm19650922wmb.21 - gsmtp
+2018.11.15 12:55:53 (Thu): <<<getline<<< 250 2.0.0 OK  1542283032 r76-v6sm19650922wmb.21 - gsmtp
+2018.11.15 12:55:53 (Thu): >>>putline>>> QUIT
+2018.11.15 12:55:53 (Thu): <<<getline<<< 221 2.0.0 closing connection r76-v6sm19650922wmb.21 - gsmtp
+2018.11.15 12:55:53 (Thu)-------------End of Session------------------
