@@ -1,5 +1,5 @@
-win_send_mail <- function (to, subject, body, attach, server = "localhost:25",
-                           profile = "gmailsmtp", debug = TRUE, log) {
+win_send_mail <- function (to, subject, body, attach, log, server = "localhost:25",
+                           profile = "gmailsmtp", debug = TRUE) {
   args <- c(paste0("-to ", '"', to, '"'),
             paste0("-subject ", '"', subject, '"'),
             paste0("-body ", '"', body, '"'),
